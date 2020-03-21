@@ -966,7 +966,7 @@
   integrity sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==
   dependencies:
     exec-sh "^0.3.2"
-    minimist "^1.2.5"
+    minimist "^1.2.0"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.0.0"
@@ -1168,6 +1168,11 @@
   version "2.0.0-preview023"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.0.0-preview023.tgz#d24515b3f62f1d3730fca7d07a43cff36e308f6c"
   integrity sha512-R3e+CFr5HkDTzMYnNk9iYsjY76C9/3zxdUxmejD3hivJGJ6yEKq5p95gE3skkzWnj5BBa9tE15tNI7/uZZhv5A==
+
+"@prisma/client@2.0.0-preview024":
+  version "2.0.0-preview024"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.0.0-preview024.tgz#020f7c2d12e8c56fa7f096a83bc736f10a1d44a5"
+  integrity sha512-HnJxSvEY8cQgGf0xZuMh9fv85QxlKzIbieUZPfG+30WtDKD5CxmPkatZnAj+Z5CciK7WxeQNutTGZk2eEop+ZQ==
 
 "@prisma/engine-core@2.0.121":
   version "2.0.121"
@@ -6845,14 +6850,14 @@ json5@^1.0.1:
   resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
   integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
   dependencies:
-    minimist "^1.2.5"
+    minimist "^1.2.0"
 
 json5@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.1.tgz#81b6cb04e9ba496f1c7005d07b4368a2638f90b6"
   integrity sha512-l+3HXD0GEI3huGq1njuqtzYK8OYJyXMkOLtQ53pjWh89tvWS2h6l+1zMkYWqlb57+SiQodKZyvMEFb2X+KrFhQ==
   dependencies:
-    minimist "^1.2.5"
+    minimist "^1.2.0"
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -7482,7 +7487,7 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
-    minimist "0.2.1"
+    minimist "0.0.8"
 
 morgan@^1.9.1:
   version "1.9.1"
@@ -8461,6 +8466,11 @@ prisma2@2.0.0-preview023:
   resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview023.tgz#9c692b6fe0f3917b9ad295db6fa15018e5465ca9"
   integrity sha512-rwK1fzVcC9S9eJJBn1qBwO3ccuN0FRii3UkQcwIGg98jyo3nx0QuLSmH0c6xtxDWhzIN1sRMepZf959AaVNxkA==
 
+prisma2@2.0.0-preview024:
+  version "2.0.0-preview024"
+  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview024.tgz#6d2004c5a0d2f58e09c5d9eabe1c5eb8d9b2d7e2"
+  integrity sha512-hQJjD0/Wv7evgH2XzHN1pSJPiVgZd8QI0cDyP+1mECUs4NBCUCrxPao7eNF5g8HGsjs30YR2/ree6i6TuwmfiQ==
+
 private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -9152,7 +9162,7 @@ sane@^4.0.3:
     execa "^1.0.0"
     fb-watchman "^2.0.0"
     micromatch "^3.1.4"
-    minimist "^1.2.5"
+    minimist "^1.1.1"
     walker "~1.0.5"
 
 sax@>=0.6.0:

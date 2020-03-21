@@ -7,7 +7,9 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "^0.2.5"
+    "@prisma/client": "2.0.0-preview024",
+    "@redwoodjs/core": "^0.2.5",
+    "prisma2": "2.0.0-preview024"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config"
